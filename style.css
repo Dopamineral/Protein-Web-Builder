@@ -1,0 +1,115 @@
+/*font-family: 'Kumar One', cursive;
+font-family: 'Barrio', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Orbitron', sans-serif;*/
+
+html{
+    background: #1d1d1d
+}
+
+h1{
+    font-family: 'Kumar One', cursive;
+    text-align: center;
+    color: rgb(0, 206, 255);
+    font-size: 50px;
+    margin-bottom:20px;
+   
+}
+
+h2{
+    font-family: 'Kumar One', cursive;
+    font-weight: 100;
+    font-size: 25px;
+    margin:0;
+    color: #1294f3;
+    text-align: center;
+    border-top: solid;
+    border-color: #77779d;
+    border-top-width: 2px;
+            
+}
+
+h3{
+    font-family: 'Barrio', cursive;
+    margin:0;
+    margin-left:10px;
+    margin-top: 3px;
+    color:white;
+    font-weight:100;
+    font-size:23px;
+}
+
+p{
+    color:white;
+    margin:0;
+    margin-bottom: 5px;
+    font-family: 'Play', sans-serif;
+    font-size:18px;
+    text-align: center;
+    
+}
+.biological{
+    color:#2ecc71;
+    margin-right: 40%;
+}
+.cellular{
+    color:#e74c3c;
+    margin-left:20%;
+    margin-right:20%;;
+}
+.molecular{
+    color:#3498db;
+    margin-left:40%;
+}
+
+.expand{
+    border:solid,5px;
+    color: white;
+    position:relative;
+    display:inline-block;
+    background-color:#d35400;
+    padding:3px;
+    margin-top:10x;
+    font-size: 15px;
+    
+}
+.altname{
+    display:inline-block;
+    margin-left:50px;
+    font-family: 'Indie Flower', cursive;
+        
+    color:#bdc3c7;
+}
+
+.genes{
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(255, 204, 0)
+}
+.metacontent{
+    text-align: center;
+    
+}
+.accession{
+    object-position: right;
+    display:inline-block;
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(255, 204, 0);
+    font-style: italic;
+    font-size: 13px;
+    
+}
+
+a:link,
+a:visited {
+    color:#d35400;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active{
+    color:#bdc3c7;
+    border-bottom: 1px solid transparent;
+}
